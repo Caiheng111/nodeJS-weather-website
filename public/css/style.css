@@ -1,0 +1,132 @@
+body{
+    background-color: #e67e22;
+}
+
+header h1{
+    margin-bottom:30px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+header .link{
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+header a{
+    margin-bottom: 50px;
+    margin-right: 10px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+footer{
+    padding-top:5px;
+    text-align: center;
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    clear:both;
+    margin-top:10px;
+    width: 920px;
+    height: 20px;
+    letter-spacing: 5px;
+
+}
+
+
+.container{
+    width: 1000px;
+    margin:100px auto;
+}
+
+.container .weather .img{
+    float: left;
+    padding-top:150px;
+    text-align: center;
+    padding-left:20px;
+    box-sizing:border-box;
+    height: 550px;
+    width: 360px;
+    background-image:url('../image/bg.png') ;
+    background-size: 100%, 100%;
+}
+.img h2{
+    font-family: 'Blinker', sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.img h6{
+    font-family: 'Blinker', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+.weather .info{
+    padding-top:80px;
+    padding-left:80px;
+    padding-right:50px;
+    box-sizing: border-box;
+    float: left;
+    height: 550px;
+    width: 550px;
+    background-color: #2f3542;
+}
+.weather .info input{
+    padding-top:40px;
+    width:130px;
+    border:none;
+    border-bottom: 1px solid #ff6348;
+    outline: none;
+    background:none;
+    margin-right: 20px;
+    color:#ff6348;
+    font-size: 16px;
+}
+.weather .info h4{
+    font-family: 'Blinker', sans-serif;
+    color:#ff6348;
+    font-size: 18px;
+}
+
+
+
+.weather button{
+    padding:5px;
+    font-size: 12px;
+    background-color: #ff6348;
+    outline:none;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.weather .info .msg-one{
+
+    font-family: 'Blinker', sans-serif;
+    color:#ff6348;
+    font-size: 200px;
+  
+}
+.weather .info .msg-one{
+    font-family: 'Blinker', sans-serif;
+    color:#ff6348;
+    font-size: 20px;
+  
+}
+.weather .info p{
+    margin-top:25px;
+    font-family: 'Blinker', sans-serif;
+    color:#ff6348;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
