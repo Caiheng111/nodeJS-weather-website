@@ -5,6 +5,7 @@ const geocode=require('./utils/geocode')
 const forecast=require('./utils/forecast')
 
 const app= express()
+const port=process.env.PORT || 3000
 
 
 // define path for Express config
@@ -102,6 +103,6 @@ app.get('*',(req,res)=>{
 })
 
 
-app.listen(3000,()=>{
-    console.log('Mynnae is heng')
+app.listen(port,()=>{
+    console.log('Serve is up on port'+port)
 })
